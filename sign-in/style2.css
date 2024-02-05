@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+.container{
+    display: flex;
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    border: 2px solid;
+    background-color: black;
+    top: 20%;
+    border-radius: 10px;
+}
+
+.heading{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    top: 5%;
+}
+
+form{
+    display: inline;
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    /* background-color: red; */
+    top: 25%;
+    left: 20%;  
+}
+
+.eyes{
+    display: block;
+    position: relative;
+    width: 30px;
+    top: -20px;
+    left: 80px;
+}
+
+.input{
+    display: flex;
+    position: relative;
+    top: -10px;
+    height: 30px;
+    width: 60%;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+
+#password-eye{
+    display: flex;
+    position: relative;
+    top: -50px;
+    left: 203px;
+    z-index: 1;
+    width: 50px;
+    cursor: pointer;
+}
+
+.submit{
+    position: relative;
+    font-size: x-large;
+    font-family: agbalumo;
+    width: 150px;
+    height: 50px;
+    top: 20px;
+    left: 50px;
+    border: 2px solid #fff;
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.submit:hover{
+    background-color: #fff;
+    color: #000000;
+}
+
+.forgot-password{
+    position: relative;
+    top: 30px;
+    left: 65px;
+    cursor: pointer;
+}
+
+.forgot-password a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.forgot-password:hover{
+    text-decoration: underline;
+}

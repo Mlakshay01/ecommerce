@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+}
+
+body{
+    background: center url("background.jpg");
+}
+
+
+.logo{
+    position: relative;
+    left: 0;
+    width: 100px;
+    height: 80px;
+}
+
+nav{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(42, 42, 42, 0.426);
+}
+
+nav ul{
+    display: flex;
+    position: relative;
+    list-style: none;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+nav ul a{
+    display: flex;
+    position: relative;
+    color: #c28282;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0 35px;
+}
+
+nav ul a:hover{
+    cursor: pointer;
+    color: black;
+
+}
+
+
+
+#searchBox{
+    position: relative;
+    height: 40px;
+    width: 250px;
+    padding: 2px 10px;
+    border: 2px solid #0000;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-size: 20px;
+    right: -40px;
+}
+
+#searchBox::placeholder{
+    position: relative;
+    text-align: center;
+}
+
+#searchBox:hover{
+    outline: #fff 5px dotted;
+}
+
+#searchPng{
+    position: relative;
+    right: 0px;
+}
+
+#user{
+    display: flex;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    filter: invert(100%);
+    left: 20px;
+}
+
+.login-box{
+    position: relative;
+    width: 100px;
+    height: 40px;
+    margin-left: 20px;
+    left: 15px;
+    border-radius: 10px;
+    background-color: black;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    outline: white solid 2px;
+    cursor: pointer;
+}
+
+.login-box:hover{
+    background-color: #fff;
+    color: black;
+}
+
+#catDropdown{
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    background-color: rgba(42, 42, 42, 0.426);
+    z-index: 1;
+}
+
+#catDropdown li a{
+    font-size: 20px;
+    padding-top: 5px;
+}
+#catDropdown li a:hover{
+color: #fff;
+}
+
+.advertise{
+    /* border: 2px solid white; */
+    display: flex;
+    position: relative;
+    top: 10px;
+    width: 100%;
+    height: 150px;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.6;
+}
+
+.banners{
+    display: flex;
+    position: relative;
+    background-color: #000000c5;
+    justify-content: space-around;
+}
+
+.banner{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 200px;
+    background-color: rgba(183, 160, 123, 0.596);
+    align-items: center;
+    margin: 10px;
+
+}
+
+.banner h2{
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+.banner h4{
+    background-color: grey;
+    width: 100%;
+    text-align: center;
+}
+
+.bannerlist{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px auto;
+    list-style: none;
+    align-items: center;
+}
+
+
+.bannerlist a{
+    position: relative;
+    right: 20px;
+}
+
+.bannerlist a img{
+    display: flex;
+    position: relative;
+    width: 80px;
+    height: 50px;
+    z-index: 1;
+    margin-top: 15px;
+    border-radius: 50%;
+}
+
+.contents{
+    display: flex;
+    position: relative;
+    top: 50px;
+    flex-wrap: wrap;
+}
+
+.product{
+    margin: 0 70px;
+}
+
+.bubbleOne{
+    display: flex;
+    position: relative;
+    width: 500px;
+    height: 400px;
+    background-color: rgba(128, 128, 128, 0.6);
+    border: 2px solid rgb(0, 0, 0);
+    left: 100px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.bubbleTwo{
+    display: flex;
+    position: relative;
+    width: 350px;
+    height: 150px;
+    background-color: rgba(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    color: black;
+    top: -80px;
+    left: 170px;
+    border-radius: 30%;
+    box-sizing: border-box;
+    padding-top: 90px;
+    padding-left: 30px;
+    font-weight: 700;
+    
+}
+
+.bubbleThree{
+    display: flex;
+    position: relative;
+    width: 70px;
+    height: 70px;
+    left: 574px;
+    top: -280px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.bubbleThree:hover{
+    transform: rotate(360deg);
+    transition-duration: 1s;
+}
+
+.purchase img{
+    width: 100%;
+}
+
+
+.bubbleOne img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.bubbleFour{
+    display: flex;
+    position: relative;
+    width: 150px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    font-weight: 900;
+    left: 500px;
+    top: -280px;
+    flex-direction: column;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    font-size: larger;
+    transform: rotate(45deg);
+}
+
+footer{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(185, 172, 172, 0.426);
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0;
+}
+
+
+#founder{
+    display: flex;
+    position: relative;
+    border: 2px solid #fff;
+    width: 150px;
+    height: 150px;  
+    justify-content: center; 
+    top: -10px;
+    border-radius: 13px;
+}
+
+#founder img{
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 13px;
+
+}
+
+#founder div{
+    position: absolute;
+    bottom: -30px;
+}
+
+#instagram{
+    display: flex;
+    position: relative;
+    border: 2px solid red;
+    width: 50px;
+    height: 50px;
+    border-radius: 13px;
+} 
+
+#instagram img{
+    position: relative;
+    width: 100%;
+}
+
+#instagram h4{
+    position: absolute;
+    bottom: -30px;
+    text-decoration: none;
+    color: #fff;
+    left: -10px;
+}
+
+#whatsapp{
+    display: flex;
+    position: relative;
+    border: 2px solid red;
+    width: 50px;
+    height: 50px;
+    border-radius: 13px;
+    background-color: rgb(255, 255, 255);
+}
+
+#whatsapp img{
+    position: relative;
+    width: 100%;
+}
+
+#whatsapp h4{
+    position: absolute;
+    bottom: -30px;
+    text-decoration: none;
+    color: #fff;
+    left: -10px;
+}
+
+footer h4:hover{
+    position: relative;
+    transform: scale(1.1);
+}
+
