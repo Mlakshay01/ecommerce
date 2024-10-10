@@ -70,7 +70,7 @@ nav ul a:hover{
     outline: #fff 5px dotted;
 }
 
-#searchBox:focus{
+nav input:focus{
     border: none;
     outline: #fff 5px dotted;
 }
