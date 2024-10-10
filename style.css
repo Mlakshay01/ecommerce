@@ -71,7 +71,7 @@ nav ul a:hover{
 }
 
 nav input:focus{
-    outline: none;
+    outline: #fff 5px dotted;
 }
 
 #searchPng{
