@@ -70,6 +70,11 @@ nav ul a:hover{
     outline: #fff 5px dotted;
 }
 
+#searchBox:focus{
+    border: none;
+    outline: #fff 5px dotted;
+}
+
 #searchPng{
     position: relative;
     right: 0px;
